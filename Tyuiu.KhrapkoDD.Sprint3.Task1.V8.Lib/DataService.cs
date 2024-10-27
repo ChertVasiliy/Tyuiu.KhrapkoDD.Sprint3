@@ -14,6 +14,6 @@ namespace Tyuiu.KhrapkoDD.Sprint3.Task1.V8.Lib
             }
             return Math.Round(P, 3);
         }
-        //
+        ////
     }
 }
