@@ -18,16 +18,17 @@ class Program
         Console.WriteLine("* Выполнил: Храпко Данил Дмитриевич | ИСТНб-24-1                          *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
-        Console.WriteLine("* Используя цикл foreach подсчитать количество букв “c” в строке          *");
-        Console.WriteLine("* ice nice ice creamcc                                                    *");
+        Console.WriteLine("* Используя цикл foreach подсчитать количество букв “p” в строке          *");
+        Console.WriteLine("* gdfppf vfppt p                                                          *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("Строка: " + value);
-        Console.WriteLine("Искомая буква: " + item);
+        Console.WriteLine("Исходная строка = " + value);
+        Console.WriteLine("Удаляемый символ = " + item);
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine(ds.DeleteCharInString(value, item));
+        Console.WriteLine("Преобразованная строка = " + ds.DeleteCharInString(value, item));
+        Console.ReadKey();
     }
 }

@@ -6,15 +6,14 @@ namespace Tyuiu.KhrapkoDD.Sprint3.Task3.V10.Lib
     {
         public string DeleteCharInString(string value, char item)
         {
-            int count = 0;
-            foreach (char chr in value)
+            string delString = "";
+
+            foreach (char p in value)
             {
-                if (chr == item)
-                {
-                    count++;
-                }
+                if (p == item) continue;
+                else delString += p;
             }
-            return count;
+            return delString;
         }
     }
 }

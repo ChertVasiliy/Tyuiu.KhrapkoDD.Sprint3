@@ -10,12 +10,12 @@ namespace Tyuiu.KhrapkoDD.Sprint3.Task3.V10.Test
         {
             DataService ds = new DataService();
 
-            string value = "ppp";
+            string value = "gdfppf vfppt p";
             char item = 'p';
 
-            int res = ds.DeleteCharInString(value, item);
+            string res = ds.DeleteCharInString(value, item);
 
-            int wait = 3;
+            string wait = "gdff vft ";
 
             Assert.AreEqual(wait, res);
         }
