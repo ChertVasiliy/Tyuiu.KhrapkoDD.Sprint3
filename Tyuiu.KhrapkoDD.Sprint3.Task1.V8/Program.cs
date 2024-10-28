@@ -8,7 +8,7 @@ class Program
 
         double value = 0.25;
         int startValue = 1;
-        int stopValue = 10;
+        int stopValue = 7;
 
         Console.Title = "Спринт #3 | Выполнил: Храпко Д. Д. | ИСТНб-24-1";
         Console.WriteLine("***************************************************************************");
