@@ -30,6 +30,6 @@ class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine(ds.GetSumSeries(value, startValue, stopValue));
+        Console.WriteLine(ds.GetSumSeries(value, startValue, stopValue));//
     }
 }

@@ -12,7 +12,7 @@ namespace Tyuiu.KhrapkoDD.Sprint3.Task0.V11.Lib
             {
                 SumSeries += Math.Pow(1.0/(Math.Pow(value,i)),2.0);
             }
-            return Math.Round(SumSeries, 3);
+            return Math.Round(SumSeries, 3);//
         }
     }
 }
