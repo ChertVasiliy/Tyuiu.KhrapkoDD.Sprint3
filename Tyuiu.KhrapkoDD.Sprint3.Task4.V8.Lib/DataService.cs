@@ -16,7 +16,7 @@ namespace Tyuiu.KhrapkoDD.Sprint3.Task4.V8.Lib
 
                 else
                 {
-                    double y = x / (Math.Sin(x) + x) + 0.5;
+                    double y = x / Math.Sin(x) + x + 0.5;
                     res = res * y;
                 }
             }
